@@ -10,15 +10,13 @@
 // Console.WriteLine("Введите второе число ");
 // int second = Convert.ToInt32(Console.ReadLine());
 // int ostatok = first % second;
-// if (ostatok == 0)
-// {
+// if (ostatok == 0){
 // Console.WriteLine("кратно");
 // } else Console.WriteLine("не кратно, остаток " + ostatok);
 
 // Console.WriteLine("Введите число ");
 // int number = Convert.ToInt32(Console.ReadLine());
-// if ((number % 7 == 0) && (number % 23 == 0)) 
-// {
+// if ((number % 7 == 0) && (number % 23 == 0)){
 //     Console.WriteLine("Да");
 // }  else Console.WriteLine("нет");
 
@@ -49,8 +47,7 @@
 Console.WriteLine("Введите число от 1 до 7");
 int day = Convert.ToInt32(Console.ReadLine());
 
-if (day == 1 || day == 2 || day == 3 || day == 4 || day == 5) 
-{
+if (day == 1 || day == 2 || day == 3 || day == 4 || day == 5) {
     Console.WriteLine("нет");
 } else if (day == 6 || day == 7) {
     Console.WriteLine("да");
